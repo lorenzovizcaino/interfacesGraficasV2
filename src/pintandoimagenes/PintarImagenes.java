@@ -44,12 +44,12 @@ class Lamina extends JPanel{
         int anchuraImagen=imagen.getWidth(this);
         int altoImagen=imagen.getHeight(this);
         g.drawImage(imagen,0,0,null);
-        for (int i = 0; i < 800; i++) {
-
-            for (int j = 0; j < 500; j++) {
-                g.copyArea(0,0,anchuraImagen,altoImagen,anchuraImagen*i,altoImagen*j);
-            }
-        }
+//        for (int i = 0; i < 800; i++) {
+//
+//            for (int j = 0; j < 500; j++) {
+//                g.copyArea(0,0,anchuraImagen,altoImagen,anchuraImagen*i,altoImagen*j);
+//            }
+//        }
 
 //        g.drawImage(imagen,50,50,null);
 //        g.copyArea(50,50,256,256,350,150);
