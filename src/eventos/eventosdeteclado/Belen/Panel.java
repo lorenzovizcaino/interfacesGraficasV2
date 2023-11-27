@@ -35,7 +35,7 @@ public class Panel extends JPanel{
 
             @Override
             public void keyReleased(KeyEvent e) {
-
+                System.out.println("hola");
             }
         });
 
